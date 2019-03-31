@@ -7,7 +7,7 @@ module.exports = {
     let searchString = 'nightwatch.js';
     let searchButton = 'button[name=btnG]';
     let searchResult = 'div.g:first-child > div > div.rc >  h3.r > a';
-    let expectedResult = 'Node.js powered End-to-End testing framework'
+    let expectedResult = 'Node.js powered End-to-End testing framework';
 
     browser
       // go to website, wait until body is loaded
