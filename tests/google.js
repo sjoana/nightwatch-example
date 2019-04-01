@@ -8,6 +8,7 @@ module.exports = {
     let searchButton = '#tsf > div:nth-child(2) > div > div.UUbT9 > div.aajZCb > div > center > input[type="submit"]:nth-child(1)';
     let searchResult = '#rso > div:nth-child(1) > div > div:nth-child(1) > div > div > div.r > a > h3';
     let expectedResult = 'Node.js powered End-to-End testing framework';
+    let nothing = '';
 
     browser
       // go to website, wait until body is loaded
