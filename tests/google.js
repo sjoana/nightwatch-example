@@ -3,10 +3,10 @@ module.exports = {
 
     let url = 'http://www.google.com';
     let expectedTitle = 'Google';
-    let searchBox = 'input#lst-ib';
+    let searchBox = '#tsf > div:nth-child(2) > div > div.RNNXgb > div > div.a4bIc > input';
     let searchString = 'nightwatch.js';
-    let searchButton = 'button[name=btnG]';
-    let searchResult = 'div.g:first-child > div > div.rc >  h3.r > a';
+    let searchButton = '#tsf > div:nth-child(2) > div > div.UUbT9 > div.aajZCb > div > center > input[type="submit"]:nth-child(1)';
+    let searchResult = '#rso > div:nth-child(1) > div > div:nth-child(1) > div > div > div.r > a > h3';
     let expectedResult = 'Node.js powered End-to-End testing framework';
 
     browser

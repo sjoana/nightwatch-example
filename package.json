@@ -6,7 +6,8 @@
     "test": "tests"
   },
   "dependencies": {
-    "nightwatch": "^0.9.16",
+    "chalk": "^2.4.2",
+    "nightwatch": "^1.0.19",
     "selenium-download": "^2.0.10"
   },
   "devDependencies": {},
