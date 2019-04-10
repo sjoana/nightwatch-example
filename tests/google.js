@@ -24,7 +24,7 @@ module.exports = {
       .click(searchButton)
 
       // wait for results, then verify expected string
-      .waitForElementVisible(searchResult, 10000)
+      .waitForElementVisible(searchResult, 15000)
       .assert.containsText(searchResult, expectedResult)
 
       // cleanup, shutdown browser
