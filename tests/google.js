@@ -20,11 +20,11 @@ module.exports = {
 
       // enter search string in search box, click search button
       .setValue(searchBox, searchString)
-      .waitForElementVisible(searchButton, 15000)
+      .waitForElementVisible(searchButton, 12000)
       .click(searchButton)
 
       // wait for results, then verify expected string
-      .waitForElementVisible(searchResult, 15000)
+      .waitForElementVisible(searchResult, 13000)
       .assert.containsText(searchResult, expectedResult)
 
       // cleanup, shutdown browser
