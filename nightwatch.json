@@ -12,6 +12,7 @@
     "log_path" : "log",
     "host" : "127.0.0.1",
     "port" : 4444,
+    "check_process_delay": 5000,
     "cli_args" : {
       "webdriver.chrome.driver" : "bin/chromedriver",
       "webdriver.ie.driver" : ""
@@ -38,7 +39,8 @@
         "javascriptEnabled": true,
         "acceptSslCerts": true,
         "chromeOptions" : {
-          "args" : ["headless", "no-sandbox", "disable-gpu"]
+          "args" : ["headless", "no-sandbox", "disable-gpu"],
+          "w3c": false
         }
       }
     },
