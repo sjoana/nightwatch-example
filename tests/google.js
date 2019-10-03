@@ -13,7 +13,6 @@ module.exports = {
       // go to website, wait until body is loaded
       .url(url)
       .waitForElementVisible('body', 10000)
-      .pause(100)
 
       // make sure expected title matches & search box is visible
       .assert.title(expectedTitle)
